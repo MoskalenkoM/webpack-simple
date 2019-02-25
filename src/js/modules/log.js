@@ -1,3 +1,5 @@
 const log = msg => console.log('Hello ', msg);
 
-export { log };
+console.log(log);
+
+export default log;

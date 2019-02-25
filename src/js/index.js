@@ -1,4 +1,4 @@
-import { log } from './modules/log';
+import log from './modules/log';
 
 log('Max');
 
@@ -16,3 +16,5 @@ const c = {
 };
 
 console.log(c);
+
+import '../css/style.css';

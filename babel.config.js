@@ -1,21 +1,9 @@
 module.exports = function(api) {
   api.cache(true);
 
-  const presets = [
-    [
-      '@babel/preset-env',
-      {
-        useBuiltIns: 'usage',
-        targets: {
-          browsers: '> 2%'
-        }
-      }
-    ]
-  ];
-  const plugins = ['@babel/plugin-syntax-dynamic-import'];
+  const presets = [['@babel/preset-env']];
 
   return {
-    presets,
-    plugins
+    presets
   };
 };
